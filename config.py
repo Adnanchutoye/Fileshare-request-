@@ -1,4 +1,4 @@
-#(©)CodeXBotz
+#(©)Code-society
 
 
 
@@ -10,22 +10,22 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6513971143:AAGEgm_jrcCRA_iWUNtvnpPMTszVlFWY0jU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7846701507:AAF39aa5FZj-jPPWV8ArOiZa5D3dK9M2FSk")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "26254064"))
+APP_ID = int(os.environ.get("APP_ID", "20718334"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "72541d6610ae7730e6135af9423b319c")
+API_HASH = os.environ.get("API_HASH", "4e81464b29d79c58d0ad8a0c55ece4a5")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002094207998"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002465721727"))
 
-CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002285339464"))
-CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002368514987"))
+CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002282028228"))
+CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002402083210"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5652322516"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2024483729"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -35,7 +35,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobot
 DB_NAME = os.environ.get("DATABASE_NAME", "MioSama_Bot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002059817947"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002294279835"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -49,7 +49,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Kᴏɴɴɪᴄʜɪᴡᴀ!! {mention},\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/RyumaHindiSubAnime'>𝐑ʏᴜᴍᴀ 𝐀ɴɪᴍᴇ</a></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ!! {mention},\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/RyumaHindiSubAnime'>𝐑ʏᴜᴍᴀ 𝐀ɴɪᴍᴇ</a></b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -64,10 +64,10 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @RyumaHindiSubAnime"
+USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : "
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(6727550037)
+ADMINS.append(5585016974)
+ADMINS.append(2024483729)
 
 LOG_FILE_NAME = "logs.txt"
 
