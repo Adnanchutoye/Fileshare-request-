@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+mfrom pyrogram import Client, filters
 from pyrogram.types import ChatJoinRequest
 from bot import Bot
 from config import CHANNEL_ONE, CHANNEL_TWO
