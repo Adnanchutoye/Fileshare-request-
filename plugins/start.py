@@ -34,7 +34,7 @@ async def start_command(client: Client, message):
                     "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_one),
                         InlineKeyboardButton(
                             "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_two)
-                          ],[ InlineKeyboardButton(" Jᴏɪɴ Cʜᴀɴɴᴇʟ 3 ", url="https://t.me/OngoingAnime_Htx")]
+                          ],[ InlineKeyboardButton(" Jᴏɪɴ Cʜᴀɴɴᴇʟ 3 ", url="https://t.me/Anime_hindi_sub_industry")]
             ]
             try:
                 btn.append(
