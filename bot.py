@@ -50,6 +50,7 @@ class Bot(Client):
         self.uptime = datetime.now()
         self.link_one = None
         self.link_two = None
+        self.link_three = None
         if CHANNEL_ONE:
             try:
                 link_a = (await self.create_chat_invite_link(chat_id=CHANNEL_ONE, creates_join_request=True)).invite_link 
@@ -58,7 +59,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the CHANNEL_ONE value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {CHANNEL_ONE}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/CodeXBotzSupport for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/anime_sub_society for support")
                 sys.exit()
         if CHANNEL_TWO:
             try:
@@ -68,7 +69,17 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(b)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the CHANNEL_TWO value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {CHANNEL_TWO}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/CodeXBotzSupport for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/anime_sub_society for support")
+                sys.exit()
+        if CHANNEL_ONE:
+            try:
+                link_a = (await self.create_chat_invite_link(chat_id=CHANNEL_ONE, creates_join_request=True)).invite_link 
+                self.link_one = link_a                                     
+            except Exception as a:
+                self.LOGGER(__name__).warning(a)
+                self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
+                self.LOGGER(__name__).warning(f"Please Double check the CHANNEL_THREE value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {CHANNEL_THREE}")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/anime_sub_society for support")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
