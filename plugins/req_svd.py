@@ -22,6 +22,6 @@ async def join_reqs(client, join_req: ChatJoinRequest):
             print(f"Error adding join request to req_two: {e}")
 elif join_req.chat.id == CHANNEL_THREE:
         try:
-            await add_req_two(user_id)
+            await add_req_three(user_id)
         except Exception as e:
             print(f"Error adding join request to req_three: {e}")
