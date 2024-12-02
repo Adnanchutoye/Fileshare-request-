@@ -31,15 +31,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text=f"Hᴇʟʟᴏ!! {mention}⚡,\n\n<b>ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/RyumaHindiSubAnime'>𝐑ʏᴜᴍᴀ 𝐀ɴɪᴍᴇ</a></b>",
             disable_web_page_preview=True,
-            reply_markup = InlineKeyboardMarkup(
-                [
-                [
-                    InlineKeyboardButton("⚡ ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
-                    InlineKeyboardButton('⛩️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ', url='https://t.me/Anime_Hindi_Sub_Industry')
-                ]
-            ]
-            )
-        )
+            reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/anime_hindi_sub_industry')],
+                    [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data='about'),
+                     InlineKeyboardButton("ʜᴇʟᴘ •", url='https://t.me/Anime_Support_Industry')],
+                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/TEAM_HTX')],
+                ])
     elif data == "close":
         await query.message.delete()
         try:
