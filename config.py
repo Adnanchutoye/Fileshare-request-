@@ -36,6 +36,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/Chb.jpg")
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ!! {fisrt} ⚡,\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ : <a href=https://t.me/Anime_Hindi_Sub_Industry>ᴀɴɪᴍᴇ ɪɴᴅᴜsᴛʀʏ</a></b>",)
 try:
