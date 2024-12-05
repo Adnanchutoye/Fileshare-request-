@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text =f"<b>○ 𝐌ᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href='t.me/RyumaHindiSubAnime'>𝐑ʏᴜᴍᴀ 𝐀ɴɪᴍᴇ</a>\n○ 𝐎ɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/RyumaOngoingAnime'>𝐎ɴɢᴏɪɴɢ 𝐑ʏᴜᴍᴀ</a>\n○ 𝐎ᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+YgEZxLLPXQo0YTg1'>𝐂ʟɪᴄᴋ ʜᴇʀᴇ</a>\n○ 𝐃ᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Urr_Sanjiii'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a></b>",
+            text = f"<b>⌬ ᴏᴡɴᴇʀ : <a href=https://t.me/Madhav_S9>❰⏤͟͞ 𝗠.𝗥 𝗦𝗢𝗟𝗢-//-❱</a>\n⌬ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/OngoingAnime_Htx'>ᴏɴɢᴏɪɴɢ ʜᴛx</a>\n⌬ ᴀɴɪᴍᴇ ɪɴᴅᴜsᴛʀʏ : <a href='https://t.me/anime_hindi_sub_industry'>ᴀɴɪᴍᴇ ɪɴᴅᴜsᴛʀʏ</a>\n⌬ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/team_society_1'>ʙᴏᴛ sᴏᴄɪᴇᴛʏ</a>\n⌬ ʜᴛx ᴄʜᴀᴛ ᴢᴏɴᴇ : <a href='https://t.me/HTXANIMEGROUP'>ᴄʜᴀᴛ ᴢᴏɴᴇ</a>\n࿂ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href='https://t.me/i_killed_my_clan'>❰⏤‌‌ 𝚯𝗕𝗜𝗧𝗢 -//-❱</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [ 
