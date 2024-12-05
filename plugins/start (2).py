@@ -34,7 +34,7 @@ async def start_command(client: Client, message):
                     "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_one),
                         InlineKeyboardButton(
                             "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_two)
-                          ],[ InlineKeyboardButton(" Jᴏɪɴ Cʜᴀɴɴᴇʟ 3 ", url="https://t.me/+NrwvJLfWQiBjZDg1")]
+                          ],[ InlineKeyboardButton(" Jᴏɪɴ Cʜᴀɴɴᴇʟ 3 ", url="ongoinganime_industry")]
             ]
             try:
                 btn.append(
@@ -49,7 +49,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐁ᴀᴋᴀ⚡,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ𝐬 ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ 𝐓ʀʏ 𝐀ɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ :\n@RyumaHindiSubAnime",
+                text="ʜᴇʟʟᴏ ʙᴀᴋᴀ⚡,\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ 𝐓ʀʏ 𝐀ɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Hindi_Sub_Industry>ᴀɴɪᴍᴇ ɪɴᴅᴜsᴛʀʏ</a></b>",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
@@ -83,7 +83,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐁ᴀᴋᴀ⚡,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ𝐬 ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ 𝐓ʀʏ 𝐀ɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ :\n@RyumaHindiSubAnime",
+                text="ʜᴇʟʟᴏ ʙᴀᴋᴀ⚡,\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ 𝐓ʀʏ 𝐀ɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Hindi_Sub_Industry>ᴀɴɪᴍᴇ ɪɴᴅᴜsᴛʀʏ</a></b>",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
@@ -149,8 +149,8 @@ async def start_command(client: Client, message):
         reply_markup = InlineKeyboardMarkup(
            [
                 [
-                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
-                    InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton("⚡ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton("⚡ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
