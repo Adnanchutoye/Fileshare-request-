@@ -15,8 +15,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [ 
                   [
-                        InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
-                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
+                        InlineKeyboardButton("⚡ʙᴀᴄᴋ ", callback_data = "home"),
+                        InlineKeyboardButton("⚡ᴄʟᴏsᴇ ", callback_data = "close")
                     ]
                 ]
             )
@@ -29,13 +29,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "home":
         await query.message.edit_text(
-            text=f"Kᴏɴɴɪᴄʜɪᴡᴀ!! {mention}⚡,\n\n<b>ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/RyumaHindiSubAnime'>𝐑ʏᴜᴍᴀ 𝐀ɴɪᴍᴇ</a></b>",
+            text=f"Kᴏɴɴɪᴄʜɪᴡᴀ!! {mention}⚡,\n\n<b>ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ,</b>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [
                 [
-                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
-                    InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
+                    InlineKeyboardButton("⚡ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton("⚡ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
             )
@@ -53,9 +53,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 disable_web_page_preview=True,
                 reply_markup = InlineKeyboardMarkup(
                     [
-                        [ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ",url = "https://t.me/Straw_Hat_Bots")],
-                        [ InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data = "home"),
-                         InlineKeyboardButton( "🚫 ᴄʟᴏsᴇ", callback_data = "close")]
+                        [ InlineKeyboardButton("⚡sᴜᴘᴘᴏʀᴛ",url = "https://t.me/anime_hindi_sub_industry")],
+                        [ InlineKeyboardButton("⚡ʙᴀᴄᴋ", callback_data = "home"),
+                         InlineKeyboardButton( "⚡ᴄʟᴏsᴇ", callback_data = "close")]
                     ]
                 )
          )
