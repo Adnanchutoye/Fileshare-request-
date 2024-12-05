@@ -151,7 +151,9 @@ async def start_command(client: Client, message):
                     [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data='about'),
                      InlineKeyboardButton("ʜᴇʟᴘ •", url='https://t.me/Anime_Support_Industry')],
                     [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/TEAM_HTX')],
-                ])
+                ]
+          )
+        
         await message.reply_text(
             text = START_MSG.format(
                 first = message.from_user.first_name,
